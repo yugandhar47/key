@@ -1,0 +1,92 @@
+/*
+this file only contain css for key board ui
+*/
+
+*{
+	 -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.keyboard{
+	width:100%;
+	display: block;
+
+}
+
+.key:hover {
+    /* border-radius: 0px;
+    box-shadow: inset 0px 0px 0px #4455BA; */
+        background-color: lightslategray;
+            transition: all 0s ease-in-out;
+}
+
+.row{
+    line-height: 2;
+}
+.key{
+  /*  width: 9%;
+    float: left;
+    background-color: red;
+    margin: .5%;
+    text-align: center;
+    box-shadow: inset 2px -2px 13px #4455BA;
+    vertical-align: middle;
+    border-radius: 6px;
+    cursor: pointer; */
+    
+    
+        width: 9%;
+    float: left;
+
+    margin: .5%;
+    text-align: center;
+    /* box-shadow: none; */
+    vertical-align: middle;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.space{
+	    float: left;
+    width: 4%;
+    margin: .5%;
+}
+.fnkey{
+	 width: 14%;
+}
+.fnkey{
+	 width: 14%;
+}
+.fnkey2{
+	 width: 16%;
+}
+.lastRow .fnkey{
+	 width: 13%;
+	
+}
+.lastRow .key:nth-last-of-type(1){
+	width:20%;
+}
+
+
+
+
+
+/* this for theam change  */
+#theamSelect {
+
+    list-style: none;
+    display: inline;
+}
+
+#theamSelect li{
+    display: inline;
+    margin: 6px;
+    padding: 6px;
+    background-color: chartreuse;
+    border-radius: 6px;
+        cursor: pointer;
+}
+

@@ -1,0 +1,9 @@
+
+.key{
+    background-color: red; 
+}
+
+.key:hover{
+    background-color: blue; 
+        transition: all 0s ease-in-out;
+}
