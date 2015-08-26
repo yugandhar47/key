@@ -22,7 +22,7 @@
 			};
 		}
 		
-	}
+	};
 	function attachingKEYevent(){
 		var keyBoard = document.getElementById("keyboard");
 		
@@ -43,7 +43,7 @@
 				
 				},false);
 		}
-	}
+	};
 	
 	
 	
@@ -63,7 +63,7 @@
 		//listing c_KeyPressed event
 		var keyBoard = document.getElementById("keyboard");
 		keyBoard.addEventListener('c_KeyPressed',function(e){console.log(e.src)},false);
-	}
+	};
 	window.onload = loadingEvent;
 	
 };
