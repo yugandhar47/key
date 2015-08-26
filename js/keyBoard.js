@@ -17,6 +17,7 @@
 					links[j].setAttribute("disabled","disabled");
 					}
 				}
+				
 			}
 			};
 		}
