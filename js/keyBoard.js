@@ -45,6 +45,21 @@
 		}
 	}
 	
+	function playArea(){
+	document.getElementById("container").addEventListener("click",function() {
+		document.getElementById("container");
+		console.log("click loaded");
+		  var drop =document.getElementById("container");
+		  drop.parentNode.removeChild(drop)
+		 // var drop2 = $('.container').clone();
+		  //$('.container').remove();
+			  console.log(drop);
+			  document.getElementById("playArea").appendChild(drop);
+		  //$('body').append(drop2);
+		});
+	}
+	
+	
 	
 	
 	function loadingEvent() {
@@ -63,7 +78,13 @@
 		//listing c_KeyPressed event
 		var keyBoard = document.getElementById("keyboard");
 		keyBoard.addEventListener('c_KeyPressed',function(e){console.log(e.src)},false);
+		
+		
+		
+		playArea();
+		
 	}
+	
 	window.onload = loadingEvent;
 	
 };
